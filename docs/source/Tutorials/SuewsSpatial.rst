@@ -28,7 +28,7 @@ within the model is appropriate. :numref:`ref_F1` shows the overall structure of
 of models which can predict and diagnose a range of meteorological processes.
 
 .. _ref_F1:
-.. figure:: /images/SUEWSIntro_UMEP_overview.png
+.. figure:: /docs/source/images/SUEWSIntro_UMEP_overview.png
    
    Overview of the climate service tool UMEP (from Lindberg et al. 2018)
 
