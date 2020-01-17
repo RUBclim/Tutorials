@@ -46,7 +46,7 @@ How to Run from the UMEP-plugin
 #. Make sure that output files are created.
 #. You can now close the **SUEWS/BLUEWS (Advanced)**-plugin again.
 
-.. figure:: /images/SUEWSAdvanced_SuewsAdvanced.png
+.. figure:: /docs/source/images/SUEWSAdvanced_SuewsAdvanced.png
    :alt: Interface for SUEWS Advanced version.
 
    Interface for SUEWS Advanced version.
