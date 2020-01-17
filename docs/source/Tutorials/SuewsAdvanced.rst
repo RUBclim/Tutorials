@@ -119,7 +119,7 @@ Generating data from the geodatasets
 #. This is another plugin within UMEP that can be used to generate
    morphometric parameters
 
-   .. figure:: /images/SUEWSAdvanced_QGIS_SuewsSimple.png
+   .. figure:: /docs/source/images/SUEWSAdvanced_QGIS_SuewsSimple.png
       :alt:  None
       :width: 605px
 
@@ -141,7 +141,7 @@ Generating data from the geodatasets
 #. Set an output folder.
 #. Click Run.
 
-   .. figure:: /images/SUEWSAdvanced_SUEWS_MorphometricParametersBuild.png
+   .. figure:: /docs/source/images/SUEWSAdvanced_SUEWS_MorphometricParametersBuild.png
       :alt:  None
 
       Figure 3. Settings for Image Morphometric Parameters for buildings.
@@ -161,7 +161,7 @@ Generating data from the geodatasets
    time Tick in the box Raster DSM (only buildings) exist.
 #. Enter the CDSM as your Raster DSM (only buildings).
 
-   .. figure:: /images/SUEWSAdvanced_SUEWS_MorphometricParametersVeg.png
+   .. figure:: /docs/source/images/SUEWSAdvanced_SUEWS_MorphometricParametersVeg.png
       :alt:  None
 
       Settings for Image Morphometric Parameters for vegetation
@@ -181,13 +181,13 @@ part of a thousand is missing (this is probably a rounding error during
 data extraction). To fix this issue: add 0.001 to e.g. bare soil. Now
 run again.
 
-.. figure:: /images/SUEWSAdvanced_Modelrununsuccessful.png
+.. figure:: /docs/source/images/SUEWSAdvanced_Modelrununsuccessful.png
    :alt:  None
 
    Possible error window from running SUEWS with new settings.
 
 
-.. figure:: /images/SUEWSAdvanced_SuewsSimpleGeodata.png
+.. figure:: /docs/source/images/SUEWSAdvanced_SuewsSimpleGeodata.png
    :alt:  None
    :width: 100%
 
