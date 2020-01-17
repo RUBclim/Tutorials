@@ -36,8 +36,8 @@ How to Run from the UMEP-plugin
    `RunControl.nml <http://suews-docs.readthedocs.io/en/latest/input_files/RunControl/RunControl.html>`__.
 #. Use the Input folder:
 
-   *C:/Users/your_user_name/AppData/Roaming/QGIS/QGIS3/*
-   *profiles/default/python/plugins/UMEP/suewsmodel/Input/*
+   + Windows: *C:/Users/your_user_name/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/UMEP/suewsmodel/Input/*
+   + Linux: */home/your_user_name/.local/share/QGIS/QGIS3/profiles/default/python/plugins/UMEP/suewsmodel/Input/*
 
 #. Create or enter an **Output directory** of your choice.
 #. From the **Input folder** - confirm the data are in there.
@@ -92,8 +92,7 @@ Ordnance Survey and the LiDAR data.
 #. Open the geodatasets. Go to *Layer > Add layer > Add Raster Layer*.
    Locate the files you downloaded before (see above).
 #. A QGIS style file (landcoverstyle.qml) is available for the land cover grid. It can
-   found in *C:/Users/your_user_name/AppData/Roaming/QGIS/QGIS3/profiles/*
-   *default/python/plugins/UMEP/LandCoverReclassifier*. Load it in the *Layer > Properties > Style
+   found in *C:/Users/your_user_name/AppData/Roaming/* (Windows) or */home/your_user_name/.local/share/* (Linux), followed by *QGIS/QGIS3/profiles/default/python/plugins/UMEP/LandCoverReclassifier*. Load it in the *Layer > Properties > Style
    > Style* (lower left) **Load file**.
 #. Click Apply before you close so that the names of the classes also
    load. You can also get the properties of a layer by right-click on a
@@ -139,6 +138,7 @@ Generating data from the geodatasets
    and click Generate study area.
 #. A circular area will be considered. Enter the DSM and DEM files (i.e.
    the files you currently have in the viewer)
+#. Set an output folder.
 #. Click Run.
 
    .. figure:: /images/SUEWSAdvanced_SUEWS_MorphometricParametersBuild.png
