@@ -17,15 +17,14 @@ Research question:
 Getting started
 ---------------
 
-Before getting started with this tutorial, make sure you have followed
-these steps:
+Before getting started with this tutorial, make sure you have access to the following (**I NEED TO EXTEND THIS**):
 
-#. Install `QGIS <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__,
-#. Install `UMEP <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__
-#. Make sure the following python packages are installed: numpy,
-   matplotlib and pandas. 
+#. `QGIS <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__,
+#. `UMEP <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__
+#. Python packages are installed: numpy, matplotlib and pandas. 
 #. The WATCH servers are currently down. Therefore we'll use meteo input from using `Copernicus' Climate Data Store api <https://cds.climate.copernicus.eu/#!/home>`__ to download ERA5 data 
 #. Download and load the LCZ map from Beijing, available from the `WUDAPT portal <http://www.wudapt.org/>`__.
+
 
 Overview
 --------
