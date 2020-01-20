@@ -12,9 +12,7 @@ will go through each of the steps necessary to prepare, run and analyse
 the model output.
 
 Research question:
-**What is the difference in sensible heat flux between a summer with a
-large number of heat wave days and a low number of heat wave days in
-Beijing, China?**
+**TO BE ADDED**
 
 Getting started
 ---------------
@@ -25,7 +23,8 @@ these steps:
 #. Install `QGIS <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__,
 #. Install `UMEP <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__
 #. Make sure the following python packages are installed: numpy,
-   matplotlib and pandas. Start the WATCH-plugin (*UMEP > Pee-Processor > Meteorological Data > Download data (WATCH)*). If a message pops up that libaraies are missing, follow this `link <http://umep-docs.readthedocs.io/en/latest/Getting_Started.html#adding-missing-python-libraries-and-other-osgeo-functionalities>`__,.
+   matplotlib and pandas. 
+#. The WATCH servers are currently down. Therefore we'll use meteo input from using `Copernicus' Climate Data Store api <https://cds.climate.copernicus.eu/#!/home>`__ to download ERA5 data 
 #. Download and load the LCZ map from Beijing, available from the `WUDAPT portal <http://www.wudapt.org/>`__.
 
 Overview
